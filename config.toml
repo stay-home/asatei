@@ -1,3 +1,11 @@
-languageCode = "en-us"
+languageCode = "ja-jp"
 title = "My New Hugo Site"
 baseurl = "/"
+paginate = 12
+buildFuture = false
+
+[taxonomies]
+tag = "tags"
+
+[params.strings]
+date_format = "2006-1-2"

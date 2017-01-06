@@ -1,0 +1,28 @@
+yoshinoya:
+  id: yoshinoya
+  name: YO
+  content: "ご飯大盛り +30円 ／ 味噌汁をけんちん汁に変更 +100円、豚汁に変更 ＋130円 ／ 納豆単品 80円"
+  time: 04:00〜10:30
+  site: https://www.yoshinoya.com/menu/morningset/
+  order: 1
+
+matsuya:
+  id: matsuya
+  name: MA
+  time: 05:00〜11:00
+  site: http://example.com
+  order: 3
+
+sukiya:
+  id: sukiya
+  name: SU
+  time: 05:00〜11:00
+  site: http://example.com
+  order: 2
+
+nakau:
+  id: nakau
+  name: NA
+  time: 05:00〜10:00
+  site: http://www.nakau.co.jp/jp/menu/category
+  order: 4
