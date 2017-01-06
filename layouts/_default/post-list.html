@@ -1,6 +1,15 @@
-<li>
-  <a href="{{ .Permalink }}">
-    {{ .Title }}
-    <time>{{ .Date.Format "Jan 02, 2006" }}</time>
-  </a>
-</li>
+<article class="articles col-xs-12 col-sm-6 col-md-4">
+
+  <img src="/img/{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
+  <h1 class="post_title">{{ .Title }}</h1>
+  <h2>{{ .Params.price }} 円</h2>
+  {{ .Content }}
+
+  <footer class="post_meta">
+    <ul class="post_tags list-unstyled">
+      {{ range $i, $e :=.Params.tags }}
+      <li class="post_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </footer>
+</article>

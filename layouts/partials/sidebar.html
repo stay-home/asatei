@@ -1,0 +1,42 @@
+{{ if not .IsHome }}
+  <h3>店舗から選ぶ</h3>
+  <ul class="">
+    {{ range $i, $shop := sort .Site.Data.shops "order" }}
+      <li>
+        <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
+          <img src="/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
+          <h1>{{ $shop.name }}</h1>
+          <p>営業時間: {{ $shop.time }}</p>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+
+<h3>内容から選ぶ</h3>
+<ul class="">
+  {{ range $name, $value := .Site.Taxonomies.tags }}
+    {{ if ge (len (findRE "^[^0-9]" $name)) 1 }}
+      <li>
+        <a href="{{ $.Site.BaseURL }}tags/{{ $name }}/">
+          <div>{{ $name }}<span class="badge">{{ .Count }}</span></div>
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+
+<h3>価格帯で選ぶ</h3>
+<ul class="">
+  {{ range $name, $value := .Site.Taxonomies.tags }}
+    {{ if ge (len (findRE "^[0-9]" $name)) 1 }}
+      <li>
+        <a href="{{ $.Site.BaseURL }}tags/{{ $name }}/">
+          <div>{{ $name }}<span class="badge">{{ .Count }}</span></div>
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

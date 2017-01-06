@@ -1,13 +1,28 @@
 {{ partial "header.html" . }}
 
-<article>
-  <ul>
-    {{ range (.Paginator).Pages }}
-      {{ .Render "post-list" }}
-    {{ end }}
-  </ul>
-</article>
+<div class="container">
+  <div class="row">
 
-{{ partial "pagination.html" . }}
+    <main class="col-md-9">
+      <h3>shops</h3>
+      <div class="row">
+        {{ range $i, $shop := sort .Site.Data.shops "order" }}
+          <article class="articles col-xs-6 col-sm-4 col-md-3">
+            <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
+              <img src="/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
+              <h1>{{ $shop.name }}</h1>
+              <p>time: {{ $shop.time }}</p>
+            </a>
+          </article>
+        {{ end }}
+      </div>
+    </main>
+
+    <aside class="col-md-3">
+      {{ partial "sidebar.html" . }}
+    </aside>
+
+  </div>
+</div>
 
 {{ partial "footer.html" . }}

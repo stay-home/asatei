@@ -1,14 +1,24 @@
 {{ partial "header.html" . }}
 
-<article>
-  <header class="entry-header">
-    <span class="entry-date">{{ .Date.Format "Jan 01, 2006" }}</span>
-    <h1 class="entry-title">{{ .Title }}</h1>
-  </header>
+<main class="container">
 
-  <div class="entry-content">
-    <p>{{ .Content }}</p>
+  {{ if .Params.youtube }}
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" id="player" type="text/html" src="//www.youtube.com/embed/{{ .Params.youtube }}?enablejsapi=1" frameborder="0"></iframe>
   </div>
-</article>
+  {{ end }}
+
+  <h3>{{ .Title }}</h3>
+
+  {{ .Content }}
+
+  <footer>
+    <time>{{ if .Site.Params.strings.date_format }}{{ .Date.Format .Site.Params.strings.date_format }}{{ else }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+    {{ range $i, $e :=.Params.tags }}
+    <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </footer>
+
+</main>
 
 {{ partial "footer.html" . }}

@@ -1,9 +1,14 @@
-</main>
+<footer class="footer">
+  <aside class="text-center">
+    {{ if isset .Site.Params "twitter" }}
+    <a href="{{ .Site.Params.twitter }}" target="_blank">
+      <i class="fa fa-twitter-square fa-2x"></i></a>
+    {{ end }}
+  </aside>
 
-<footer>
-  <small>© 2017 example.com</small>
+  <p class="text-center">
+    <small>&copy; 2016 <a href="/">{{ .Site.Title }}</a></small>
+  </p>
 </footer>
-
-<script src="{{ .Site.BaseURL }}assets/js/scripts.js"></script>
 </body>
 </html>
