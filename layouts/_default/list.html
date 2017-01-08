@@ -13,13 +13,12 @@
       {{ end }}
 
       <div class="articles">
-        {{ $kind := $.Kind }}
 
         {{ range (.Paginator).Pages }}
 
           <article class="articles col-xs-12 col-sm-6 col-md-4">
 
-            {{ if ne $kind "section" }}
+            {{ if findRE "/tags/" $.RelPermalink }}
               <h3><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
             {{ end }}
 
