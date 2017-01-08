@@ -1,3 +1,5 @@
+{{ $kind := .Kind }}
+
 {{ partial "header.html" . }}
 
 <div class="container">
@@ -12,7 +14,32 @@
         <p>{{ $shop.time }}</p>
       {{ end }}
 
-      {{ .Render "post-list" }}
+      <div class="articles">
+
+        {{ range (.Paginator).Pages }}
+
+          <article class="articles col-xs-12 col-sm-6 col-md-4">
+
+            {{ if ne $kind "section" }}
+              <h3>{{ (index $.Site.Data.shops .Section).name }}</h3>
+            {{ end }}
+
+            <img src="/img/{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
+            <h1 class="post_title">{{ .Title }}</h1>
+            <h2>{{ .Params.price }} 円</h2>
+            {{ .Content }}
+
+            <footer class="post_meta">
+              <ul class="post_tags list-unstyled">
+                {{ range $i, $e :=.Params.tags }}
+                  <li class="post_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+                {{ end }}
+              </ul>
+            </footer>
+          </article>
+
+        {{ end }}
+      </div>
 
       <div class="text-center">
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
