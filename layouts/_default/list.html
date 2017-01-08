@@ -4,7 +4,13 @@
   <div class="row">
     <main class="col-md-9">
 
-      <h3>{{ (index $.Site.Data.shops (index .Pages 0).Section).name }}</h3>
+      <h3>
+        {{ if eq .Data.Singular "tag" }}
+          {{ .Title }}
+        {{ else }}
+          {{ (index $.Site.Data.shops (index .Pages 0).Section).name }}
+        {{ end }}
+      </h3>
 
       <div class="articles">
         {{ range (.Paginator).Pages }}
