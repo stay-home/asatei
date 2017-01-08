@@ -4,19 +4,15 @@
   <div class="row">
     <main class="col-md-9">
 
-      <h3>
-        {{ if eq .Data.Singular "tag" }}
-          {{ .Title }}
-        {{ else }}
-          {{ (index $.Site.Data.shops (index .Pages 0).Section).name }}
-        {{ end }}
-      </h3>
+      {{ if eq .Data.Singular "tag" }}
+        <h3>{{ .Title }}</h3>
+      {{ else }}
+        {{ $shop := index $.Site.Data.shops (index .Pages 0).Section }}
+        <h3>{{ $shop.name }}</h3>
+        <p>{{ $shop.time }}</p>
+      {{ end }}
 
-      <div class="articles">
-        {{ range (.Paginator).Pages }}
-          {{ .Render "post-list" }}
-        {{ end }}
-      </div>
+      {{ .Render "post-list" }}
 
       <div class="text-center">
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
