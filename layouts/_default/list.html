@@ -9,7 +9,7 @@
       {{ if eq .Data.Singular "tag" }}
         <h3>{{ .Title }}</h3>
       {{ else }}
-        {{ $shop := index $.Site.Data.shops (index .Pages 0).Section }}
+        {{ $shop := index $.Site.Data.shops (index .Data.Pages 0).Section }}
         <h3>{{ $shop.name }}</h3>
         <p>{{ $shop.time }}</p>
       {{ end }}
