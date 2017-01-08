@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
 
+{{ $is_tag := .Data.Singular }}
+
 <div class="container">
   <div class="row">
     <main class="col-md-9">
@@ -18,7 +20,7 @@
 
           <article class="articles col-xs-12 col-sm-6 col-md-4">
 
-            {{ if findRE "/tags/" $.RelPermalink }}
+            {{ if $is_tag }}
               <h3><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
             {{ end }}
 
