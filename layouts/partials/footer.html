@@ -1,14 +1,12 @@
-<footer class="footer">
-  <aside class="text-center">
-    {{ if isset .Site.Params "twitter" }}
-    <a href="{{ .Site.Params.twitter }}" target="_blank">
-      <i class="fa fa-twitter-square fa-2x"></i></a>
-    {{ end }}
-  </aside>
+{{ partial "ad/bottom.html" . }}
 
-  <p class="text-center">
-    <small>&copy; 2016 <a href="/">{{ .Site.Title }}</a></small>
-  </p>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-center">
+      <small>&copy; 2016 <a href="/">{{ .Site.Title }}</a></small>
+    </p>
+  </div>
 </footer>
 </body>
 </html>

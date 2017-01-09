@@ -1,2 +1,4 @@
 @import "_var";
-@import "_module";
+@import "_global";
+@import "_partials";
+@import "_list";

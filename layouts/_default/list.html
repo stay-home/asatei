@@ -4,40 +4,41 @@
 
 <div class="container">
   <div class="row">
-    <main class="col-md-9">
-
-      {{ if eq .Data.Singular "tag" }}
-        <h3>{{ .Title }}</h3>
-      {{ else }}
-        {{ $shop := index $.Site.Data.shops (index .Data.Pages 0).Section }}
-        <h3>{{ $shop.name }}</h3>
-        <p>{{ $shop.time }}</p>
-      {{ end }}
+    <main class="list {{ if $is_tag }}list-tag{{ else }}list-shop{{ end }} col-md-9">
+      <header>
+        {{ if $is_tag }}
+          <h1 class="list_title">{{ .Title }} のメニュー</h1>
+        {{ else }}
+          {{ $shop := index $.Site.Data.shops (index .Data.Pages 0).Section }}
+          <h1 class="list_title">{{ $shop.name }} の朝定食</h1>
+          <h2 class="list_caption">販売時間: {{ $shop.time }}</h2>
+        {{ end }}
+      </header>
 
       <div class="articles">
-
         {{ range (.Paginator).Pages }}
 
-          <article class="articles col-xs-12 col-sm-6 col-md-4">
+          <article class="menu col-xs-12 col-sm-6 col-md-4">
 
             {{ if $is_tag }}
-              <h3><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
+            <h3 class="menu_shop"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
             {{ end }}
 
-            <img src="/img/{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
-            <h1 class="post_title">{{ .Title }}</h1>
-            <h2>{{ .Params.price }} 円</h2>
-            {{ .Content }}
+            <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
+            <h1 class="menu_title">{{ .Title }}</h1>
+            <h2 class="menu_price">{{ .Params.price }} 円</h2>
+            <div class="menu_content">
+              {{ .Content }}
+            </div>
 
-            <footer class="post_meta">
-              <ul class="post_tags list-unstyled">
+            <footer class="menu_meta">
+              <ul class="menu_tags list-unstyled">
                 {{ range $i, $e :=.Params.tags }}
-                  <li class="post_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+                <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
                 {{ end }}
               </ul>
             </footer>
           </article>
-
         {{ end }}
       </div>
 

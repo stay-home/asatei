@@ -31,7 +31,10 @@ foreach ($data as $key => $a) {
     $md_file = "{$md_dir}/{$a['slug']}.md";
     @mkdir($md_dir);
 
-    $tags = explode(',', $a['tags']);
+    $tags = [];
+    if (! empty($a['tags'])) {
+        $tags = explode(',', $a['tags']);
+    }
     $tags[] = (int)(($a['price']+99) / 100) . "00円以下";
     $tags = json_encode($tags, JSON_UNESCAPED_UNICODE);
 

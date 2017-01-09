@@ -1,0 +1,16 @@
+body {
+  font-family: var(--font-family);
+  color: var(--color);
+}
+
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--color-hover);
+  text-decoration: none;
+}
+
+.img-responsive {
+  min-width: 100%;
+}

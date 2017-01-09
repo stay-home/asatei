@@ -8,7 +8,6 @@
   <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}{{ if .Site.Params.strings.posts_list_header }}{{ .Site.Params.strings.posts_list_header }}{{ else }}All Entries{{ end }} &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags &middot; {{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/styles.css">
   <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

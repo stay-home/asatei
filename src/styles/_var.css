@@ -1,3 +1,6 @@
 :root {
-  --color: #f00;
+  --font-family: "Helvetica", "Arial", "Yu Gothic", YuGothic, sans-serif;
+  --color: #444;
+  --color-link: #477;
+  --color-hover: #6aa;
 }

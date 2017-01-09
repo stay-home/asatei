@@ -1,0 +1,27 @@
+/*
+ * main header
+ */
+.mainHeader {
+  background-color: #f0f0e8;
+  padding: 3em 0;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+.mainHeader_title {
+  color: var(--color);
+  font-size: 240%;
+  font-weight: bold;
+}
+.mainHeader_description {
+  font-size: 100%;
+}
+
+
+/*
+ * footer
+ */
+.footer {
+  padding: 2em 0;
+  margin-top: 2em;
+  border-top: 1px solid #f0f0e8;
+}
