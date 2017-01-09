@@ -1,15 +1,17 @@
 {{ partial "header.html" . }}
 
 {{ $is_tag := .Data.Singular }}
+{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}
 
 <div class="container">
   <div class="row">
+
     <main class="list {{ if $is_tag }}list-tag{{ else }}list-shop{{ end }} col-md-9">
-      <header>
+
+      <header class="list_header">
         {{ if $is_tag }}
           <h1 class="list_title">{{ .Title }} のメニュー</h1>
         {{ else }}
-          {{ $shop := index $.Site.Data.shops (index .Data.Pages 0).Section }}
           <h1 class="list_title">{{ $shop.name }} の朝定食</h1>
           <h2 class="list_caption">販売時間: {{ $shop.time }}</h2>
         {{ end }}
@@ -21,7 +23,7 @@
           <article class="menu col-xs-12 col-sm-6 col-md-4">
 
             {{ if $is_tag }}
-            <h3 class="menu_shop"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
+              <h3 class="menu_shop"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
             {{ end }}
 
             <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
@@ -34,10 +36,11 @@
             <footer class="menu_meta">
               <ul class="menu_tags list-unstyled">
                 {{ range $i, $e :=.Params.tags }}
-                <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+                 <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
                 {{ end }}
               </ul>
             </footer>
+
           </article>
         {{ end }}
       </div>
@@ -47,6 +50,16 @@
           {{ template "_internal/pagination.html" . }}
         {{ end }}
       </div>
+
+      {{ if not $is_tag }}
+        <footer class="list_footer">
+          <h1 class="list_title">その他の情報</h1>
+          <div class="list_caption">
+            <p>{{ $shop.content }}</p>
+            <p>URL: <a href="{{ $shop.site }}">{{ $shop.site }}</a></p>
+          </div>
+        </footer>
+      {{ end }}
 
     </main>
 

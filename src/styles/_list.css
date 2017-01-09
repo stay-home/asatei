@@ -1,19 +1,18 @@
-.list-shop header {
+.list-shop .list_header {
   margin-bottom: 3em;
 }
-.list-tag header {
+.list-tag .list_header {
   margin-bottom: 1em;
 }
 
 .list_title {
-  font-size: 180%;
+  font-size: 160%;
   font-weight: bold;
   border-bottom: 2px solid var(--color);
   line-height: 1.8;
 }
 
 .list_caption {
-  font-size: 120%;
   font-weight: normal;
 }
 
@@ -32,12 +31,12 @@
 }
 
 .menu_title {
-  font-size: 160%;
+  font-size: 130%;
   font-weight: bold;
 }
 .menu_price {
-  font-size: 150%;
-  margin-top: 0;
+  font-size: 130%;
+  font-weight: bold;
 }
 
 .menu_tags {
@@ -53,4 +52,9 @@
 }
 .menu_tag:not(:last-child):after {
   content: ', ';
+}
+
+.list .list_footer {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }

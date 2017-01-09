@@ -1,6 +1,13 @@
 body {
   font-family: "Helvetica", "Arial", "Yu Gothic", YuGothic, sans-serif;
   color: #444;
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: .7em 0;
+  padding: 0;
 }
 a {
   color: #477;
@@ -37,20 +44,19 @@ a:hover {
   margin-top: 2em;
   border-top: 1px solid #f0f0e8;
 }
-.list-shop header {
+.list-shop .list_header {
   margin-bottom: 3em;
 }
-.list-tag header {
+.list-tag .list_header {
   margin-bottom: 1em;
 }
 .list_title {
-  font-size: 180%;
+  font-size: 160%;
   font-weight: bold;
   border-bottom: 2px solid #444;
   line-height: 1.8;
 }
 .list_caption {
-  font-size: 120%;
   font-weight: normal;
 }
 .articles {
@@ -67,12 +73,12 @@ a:hover {
   font-size: 140%;
 }
 .menu_title {
-  font-size: 160%;
+  font-size: 130%;
   font-weight: bold;
 }
 .menu_price {
-  font-size: 150%;
-  margin-top: 0;
+  font-size: 130%;
+  font-weight: bold;
 }
 .menu_tags {
   color: #888;
@@ -87,4 +93,8 @@ a:hover {
 }
 .menu_tag:not(:last-child):after {
   content: ', ';
+}
+.list .list_footer {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
