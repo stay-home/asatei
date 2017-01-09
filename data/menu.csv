@@ -1,12 +1,8 @@
 section,slug,title,tags,price,content
-yoshinoya,torisoboro,鶏そぼろ飯,,290,"並盛 290円
-大盛 450円"
-yoshinoya,torisoboro-gyu,鶏そぼろ牛小鉢飯,"牛小鉢",430,"並盛 430円
-大盛 590円"
-yoshinoya,tofu-bukkake,豆腐ぶっかけ飯 〜鯛だし味〜,"豆腐",290,"並盛 290円
-大盛 450円"
-yoshinoya,tofu-bukkake-gyu,豆腐ぶっかけ牛小鉢飯 〜鯛だし味〜,"豆腐,牛小鉢",430,"並盛 430円
-大盛 590円"
+yoshinoya,torisoboro,鶏そぼろ飯,丼,290,大盛 450円
+yoshinoya,torisoboro-gyu,鶏そぼろ牛小鉢飯,"丼,牛小鉢",430,大盛 590円
+yoshinoya,tofu-bukkake,豆腐ぶっかけ飯 〜鯛だし味〜,"丼,豆腐",290,大盛 450円
+yoshinoya,tofu-bukkake-gyu,豆腐ぶっかけ牛小鉢飯 〜鯛だし味〜,"丼,豆腐,牛小鉢",430,大盛 590円
 yoshinoya,nattou,納豆定食,"納豆,生卵",360,
 yoshinoya,nattou-gyu,納豆牛小鉢定食,"納豆,牛小鉢",450,
 yoshinoya,yakizakana,焼魚定食,"焼魚",450,
