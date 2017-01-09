@@ -6,7 +6,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: normal;
-  margin: .7em 0;
+  margin: 0;
   padding: 0;
 }
 a {
@@ -32,9 +32,64 @@ a:hover {
   color: #444;
   font-size: 240%;
   font-weight: bold;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .mainHeader_description {
   font-size: 100%;
+}
+.header_title {
+  font-size: 160%;
+  font-weight: bold;
+  border-bottom: 2px solid #444;
+  height: 80px;
+  height: 5rem;
+  line-height: 80px;
+  line-height: 5rem;
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+  padding: 0 8px;
+  padding: 0 0.5rem;
+}
+/*
+ * toppage
+ */
+.toppage_shop {
+  margin-bottom: 2em;
+}
+.toppage_title {
+  font-size: 140%;
+  font-weight: bold;
+  margin: 1em 0 .5em;
+}
+.toppage_caption {
+  font-size: 85%;
+}
+/*
+ * sidebar
+ */
+.sidebar {
+}
+.sidebar_title {
+  font-size: 130%;
+}
+.sidebar section {
+  margin-bottom: 3em;
+}
+.sidebar_list > li {
+  margin-bottom: 0.3em;
+}
+.sidebar_list .badge {
+  background-color: #6aa;
+}
+.sidebar_shops li img {
+  max-width: 50px;
+}
+.sidebar_shops .sidebar_shopname {
+  font-size: 110%;
+  font-weight: bold;
 }
 /*
  * footer
@@ -44,20 +99,12 @@ a:hover {
   margin-top: 2em;
   border-top: 1px solid #f0f0e8;
 }
-.list-shop .list_header {
-  margin-bottom: 3em;
-}
-.list-tag .list_header {
-  margin-bottom: 1em;
-}
-.list_title {
-  font-size: 160%;
-  font-weight: bold;
-  border-bottom: 2px solid #444;
-  line-height: 1.8;
-}
-.list_caption {
-  font-weight: normal;
+/*
+ * ad
+ */
+.ad_top {
+  margin: 32px 0 3em;
+  margin: 2rem 0 3em;
 }
 .articles {
   display: -webkit-box;
@@ -69,20 +116,27 @@ a:hover {
 .menu {
   margin-bottom: 2em;
 }
-.menu_shop {
+.menu_shopname {
   font-size: 140%;
+  font-weight: bold;
+  margin-bottom: .5em;
 }
 .menu_title {
   font-size: 130%;
   font-weight: bold;
+  margin: .5em 0;
 }
 .menu_price {
   font-size: 130%;
   font-weight: bold;
+  margin: .5em 0;
+}
+.menu_content {
+  margin: 1em 0;
 }
 .menu_tags {
   color: #888;
-  font-size: 90%;
+  font-size: 85%;
   margin-top: 1em;
 }
 .menu_tag {

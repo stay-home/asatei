@@ -1,45 +1,63 @@
-{{ partial "ad/sidebar.html" . }}
+<aside class="sidebar col-md-3">
 
 
-{{ if not .IsHome }}
-  <h3>店舗から選ぶ</h3>
-  <ul class="">
-    {{ range $i, $shop := sort .Site.Data.shops "order" }}
-      <li>
-        <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
-          <img src="/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
-          <h1>{{ $shop.name }}</h1>
-          <p>営業時間: {{ $shop.time }}</p>
+  {{ partial "ad/sidebar.html" . }}
+
+
+  {{ if not .IsHome }}
+  <section>
+    <h3 class="sidebar_title header_title">店舗から選ぶ</h3>
+    <ul class="sidebar_shops row list-unstyled">
+      {{ range $i, $shop := sort .Site.Data.shops "order" }}
+      <li class="col-md-12 col-xs-6 ">
+        <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/" class="media">
+          <div class="media-left">
+            <img class="media-object" src="/assets/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading sidebar_shopname">{{ $shop.name }}</h4>
+            <p>
+              <small>販売時間: {{ $shop.time }}</small></p>
+          </div>
         </a>
       </li>
-    {{ end }}
-  </ul>
-{{ end }}
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 
 
-<h3>内容から選ぶ</h3>
-<ul class="">
-  {{ range $name, $value := .Site.Taxonomies.tags }}
-    {{ if ge (len (findRE "^[^0-9]" $name)) 1 }}
+  <section>
+    <h3 class="sidebar_title header_title">価格帯で選ぶ</h3>
+    <ul class="sidebar_list">
+      {{ range $name, $value := .Site.Taxonomies.tags }}
+      {{ if ge (len (findRE "^[0-9]" $name)) 1 }}
       <li>
         <a href="{{ $.Site.BaseURL }}tags/{{ $name }}/">
-          <div>{{ $name }}<span class="badge">{{ .Count }}</span></div>
+          <div>{{ $name }} <span class="badge">{{ .Count }}</span></div>
         </a>
       </li>
-    {{ end }}
-  {{ end }}
-</ul>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </section>
 
 
-<h3>価格帯で選ぶ</h3>
-<ul class="">
-  {{ range $name, $value := .Site.Taxonomies.tags }}
-    {{ if ge (len (findRE "^[0-9]" $name)) 1 }}
-      <li>
-        <a href="{{ $.Site.BaseURL }}tags/{{ $name }}/">
-          <div>{{ $name }}<span class="badge">{{ .Count }}</span></div>
-        </a>
-      </li>
-    {{ end }}
-  {{ end }}
-</ul>
+  {{ partial "ad/sidebar_c.html" . }}
+
+
+  <section>
+    <h3 class="sidebar_title header_title">内容から選ぶ</h3>
+    <ul class="sidebar_list">
+      {{ range $name, $value := .Site.Taxonomies.tags }}
+        {{ if ge (len (findRE "^[^0-9]" $name)) 1 }}
+          <li>
+            <a href="{{ $.Site.BaseURL }}tags/{{ $name }}/">
+              <div>{{ $name }} <span class="badge">{{ .Count }}</span></div>
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+</aside>

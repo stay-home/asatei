@@ -3,24 +3,31 @@
 <div class="container">
   <div class="row">
 
-    <main class="col-md-9">
-      <h3>shops</h3>
-      <div class="row">
+    <main class="toppage col-md-9">
+      <header>
+        <h3 class="toppage_title header_title">店舗から選ぶ</h3>
+      </header>
+
+
+      {{ partial "ad/top.html" . }}
+
+
+      <div class="row articles">
         {{ range $i, $shop := sort .Site.Data.shops "order" }}
-          <article class="articles col-xs-6 col-sm-4 col-md-3">
+          <article class="toppage_shop col-xs-6 col-sm-4 col-md-3">
             <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
-              <img src="/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
-              <h1>{{ $shop.name }}</h1>
-              <p>time: {{ $shop.time }}</p>
+              <img src="/assets/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
+              <h1 class="toppage_title">{{ $shop.name }}</h1>
+              <p class="toppage_caption">販売時間: {{ $shop.time }}</p>
             </a>
           </article>
         {{ end }}
       </div>
     </main>
 
-    <aside class="col-md-3">
-      {{ partial "sidebar.html" . }}
-    </aside>
+
+    {{ partial "sidebar.html" . }}
+
 
   </div>
 </div>

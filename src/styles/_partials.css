@@ -11,11 +11,66 @@
   color: var(--color);
   font-size: 240%;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 .mainHeader_description {
   font-size: 100%;
 }
 
+
+.header_title {
+  font-size: 160%;
+  font-weight: bold;
+  border-bottom: 2px solid var(--color);
+  height: 5rem;
+  line-height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+}
+
+
+/*
+ * toppage
+ */
+.toppage_shop {
+  margin-bottom: 2em;
+}
+.toppage_title {
+  font-size: 140%;
+  font-weight: bold;
+  margin: 1em 0 .5em;
+}
+.toppage_caption {
+  font-size: 85%;
+}
+
+
+/*
+ * sidebar
+ */
+.sidebar {
+}
+.sidebar_title {
+  font-size: 130%;
+}
+.sidebar section {
+  margin-bottom: 3em;
+}
+.sidebar_list > li {
+  margin-bottom: 0.3em;
+}
+.sidebar_list .badge {
+  background-color: var(--color-badge);
+}
+
+.sidebar_shops li img {
+  max-width: 50px;
+}
+.sidebar_shops .sidebar_shopname {
+  font-size: 110%;
+  font-weight: bold;
+}
 
 /*
  * footer
@@ -24,4 +79,12 @@
   padding: 2em 0;
   margin-top: 2em;
   border-top: 1px solid #f0f0e8;
+}
+
+
+/*
+ * ad
+ */
+.ad_top {
+  margin: 2rem 0 3em;
 }

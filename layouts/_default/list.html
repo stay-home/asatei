@@ -10,12 +10,16 @@
 
       <header class="list_header">
         {{ if $is_tag }}
-          <h1 class="list_title">{{ .Title }} のメニュー</h1>
+          <h1 class="list_title header_title">{{ .Title }} のメニュー</h1>
         {{ else }}
-          <h1 class="list_title">{{ $shop.name }} の朝定食</h1>
+          <h1 class="list_title header_title">{{ $shop.name }} の朝定食</h1>
           <h2 class="list_caption">販売時間: {{ $shop.time }}</h2>
         {{ end }}
       </header>
+
+
+      {{ partial "ad/top.html" . }}
+
 
       <div class="articles">
         {{ range (.Paginator).Pages }}
@@ -23,7 +27,7 @@
           <article class="menu col-xs-12 col-sm-6 col-md-4">
 
             {{ if $is_tag }}
-              <h3 class="menu_shop"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
+              <h3 class="menu_shopname"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
             {{ end }}
 
             <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
@@ -53,7 +57,7 @@
 
       {{ if not $is_tag }}
         <footer class="list_footer">
-          <h1 class="list_title">その他の情報</h1>
+          <h1 class="list_title header_title">その他の情報</h1>
           <div class="list_caption">
             <p>{{ $shop.content }}</p>
             <p>URL: <a href="{{ $shop.site }}">{{ $shop.site }}</a></p>
@@ -63,9 +67,10 @@
 
     </main>
 
-    <aside class="col-md-3">
-      {{ partial "sidebar.html" . }}
-    </aside>
+
+    {{ partial "sidebar.html" . }}
+
+
   </div>
 </div>
 
