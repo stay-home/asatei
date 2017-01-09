@@ -1,5 +1,5 @@
 ---
-weight: "15"
+weight: "14"
 title: 目玉焼き朝定食
 tags: ["目玉焼き","300円以下"]
 price: 250

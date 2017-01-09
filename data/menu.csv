@@ -5,16 +5,30 @@ yoshinoya,tofu-bukkake,豆腐ぶっかけ飯 〜鯛だし味〜,"丼,豆腐",290
 yoshinoya,tofu-bukkake-gyu,豆腐ぶっかけ牛小鉢飯 〜鯛だし味〜,"丼,豆腐,牛小鉢",430,大盛 590円
 yoshinoya,nattou,納豆定食,"納豆,生卵",360,
 yoshinoya,nattou-gyu,納豆牛小鉢定食,"納豆,牛小鉢",450,
-yoshinoya,yakizakana,焼魚定食,"焼魚",450,
+yoshinoya,yakizakana,焼魚定食,焼魚,450,
 yoshinoya,yakizakana-gyu,焼魚牛小鉢定食,"焼魚,牛小鉢",590,
 yoshinoya,tokuasa,特朝定食,"焼魚,納豆,生卵",550,
-sukiya,tokuasa,特朝定食,"焼魚,納豆,生卵",550,
 nakau,nikusui,肉すい朝定食,"生卵,肉すい",390,
 nakau,maze-gyu,朝まぜごはん牛小鉢定食,"牛小鉢,生卵",350,とん汁変更 400円
 nakau,maze-nattou,朝まぜごはん納豆定食,"納豆,生卵",330,とん汁変更 380円
-nakau,tamago,こだわり卵朝定食,"生卵",230,とん汁変更 280円
+nakau,tamago,こだわり卵朝定食,生卵,230,とん汁変更 280円
 nakau,gyushake,牛鮭朝定食,"牛小鉢,焼魚",430,とん汁変更 480円
-nakau,medamayaki,目玉焼き朝定食,"目玉焼き",250,とん汁変更 300円
-nakau,double-medamayaki,ダブル目玉焼き朝定食,"目玉焼き",330,とん汁変更 380円
+nakau,medamayaki,目玉焼き朝定食,目玉焼き,250,とん汁変更 300円
+nakau,w-medamayaki,ダブル目玉焼き朝定食,目玉焼き,330,とん汁変更 380円
 nakau,medamayaki-gyu,目玉焼き牛小鉢朝定食,"目玉焼き,牛小鉢",350,とん汁変更 400円
 nakau,medamayaki-nattou,目玉焼き納豆朝定食,"目玉焼き,納豆",330,とん汁変更 380円
+matsuya,teiban,定番朝定食,"生卵,牛小鉢,納豆,豆腐",360,"選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)"
+matsuya,yakijake,焼鮭定食,"焼魚,牛小鉢,納豆,豆腐",450,"選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)"
+matsuya,sausage-egg,ソーセージエッグ定食,"目玉焼き,牛小鉢,納豆,豆腐",400,"選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)"
+matsuya,sausage-egg-w,ソーセージエッグW定食,"目玉焼き,牛小鉢,納豆,豆腐",450,"選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)"
+sukiya,tamago,たまごかけごはん朝食,生卵,250,
+sukiya,nattou-tamago,納豆たまごかけごはん朝食,"生卵,納豆",320,
+sukiya,sake-tamago,鮭たまごかけごはん朝食,"生卵,焼魚",390,
+sukiya,siosaba-tamago,塩さばたまごかけごはん朝食,"生卵,焼魚",390,
+sukiya,bacon-tamago,ベーコンアスパラたまごかけごはん朝食,"生卵,ベーコン",350,
+sukiya,asaduke,浅漬け朝食,,250,
+sukiya,natto-asaduke,納豆浅漬け朝食,生卵,320,
+sukiya,sake-asaduke,鮭浅漬け朝食,焼魚,390,
+sukiya,siosaba-asaduke,塩さば浅漬け朝食,焼魚,390,
+sukiya,bacon-asaduke,ベーコンアスパラ浅漬け朝食,ベーコン,350,
+sukiya,mazenokke,まぜのっけごはん朝食,牛小鉢,320,

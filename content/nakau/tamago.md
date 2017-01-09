@@ -1,5 +1,5 @@
 ---
-weight: "13"
+weight: "12"
 title: こだわり卵朝定食
 tags: ["生卵","300円以下"]
 price: 230

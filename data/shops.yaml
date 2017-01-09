@@ -10,14 +10,14 @@ matsuya:
   id: matsuya
   name: 松屋
   time: 05:00〜11:00
-  site: http://example.com
+  site: https://www.matsuyafoods.co.jp/menu/morning/
   order: 3
 
 sukiya:
   id: sukiya
   name: すき家
   time: 05:00〜11:00
-  site: http://example.com
+  site: http://www.sukiya.jp/menu/in/morning/
   order: 2
 
 nakau:
