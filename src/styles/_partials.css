@@ -6,15 +6,16 @@
   padding: 3em 0;
   margin-top: 0;
   margin-bottom: 2em;
-}
-.mainHeader_title {
-  color: var(--color);
-  font-size: 240%;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
-.mainHeader_description {
-  font-size: 100%;
+
+  & .mainHeader_title {
+    color: var(--color);
+    font-size: 240%;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  & .mainHeader_description {
+    font-size: 100%;
+  }
 }
 
 
@@ -33,16 +34,19 @@
 /*
  * toppage
  */
-.toppage_shop {
-  margin-bottom: 2em;
-}
-.toppage_title {
-  font-size: 140%;
-  font-weight: bold;
-  margin: 1em 0 .5em;
-}
-.toppage_caption {
-  font-size: 85%;
+.toppage {
+  & .toppage_shop {
+    margin-bottom: 2em;
+  }
+
+  & .toppage_title {
+    font-size: 140%;
+    font-weight: bold;
+    margin: 1em 0 .5em;
+  }
+  & .toppage_caption {
+    font-size: 85%;
+  }
 }
 
 
@@ -50,27 +54,34 @@
  * sidebar
  */
 .sidebar {
-}
-.sidebar_title {
-  font-size: 130%;
-}
-.sidebar section {
-  margin-bottom: 3em;
-}
-.sidebar_list > li {
-  margin-bottom: 0.3em;
-}
-.sidebar_list .badge {
-  background-color: var(--color-badge);
+  & .sidebar section {
+    margin-bottom: 3em;
+  }
+
+  & .sidebar_title {
+    font-size: 130%;
+  }
+
+  & .sidebar_list {
+    & > li {
+      margin-bottom: 0.3em;
+    }
+    & .badge {
+      background-color: var(--color-badge);
+    }
+  }
+
+  & .sidebar_shops {
+    & li img {
+      max-width: 50px;
+    }
+    & .sidebar_shopname {
+      font-size: 110%;
+      font-weight: bold;
+    }
+  }
 }
 
-.sidebar_shops li img {
-  max-width: 50px;
-}
-.sidebar_shops .sidebar_shopname {
-  font-size: 110%;
-  font-weight: bold;
-}
 
 /*
  * footer

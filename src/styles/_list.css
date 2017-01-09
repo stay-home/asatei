@@ -5,42 +5,44 @@
 
 .menu {
   margin-bottom: 2em;
-}
 
-.menu_shopname {
-  font-size: 140%;
-  font-weight: bold;
-  margin-bottom: .5em;
-}
+  & .menu_shopname {
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: .5em;
+  }
 
-.menu_title {
-  font-size: 130%;
-  font-weight: bold;
-  margin: .5em 0;
-}
-.menu_price {
-  font-size: 130%;
-  font-weight: bold;
-  margin: .5em 0;
-}
+  & .menu_title {
+    font-size: 130%;
+    font-weight: bold;
+    margin: .5em 0;
+  }
+  & .menu_price {
+    font-size: 130%;
+    font-weight: bold;
+    margin: .5em 0;
+  }
 
-.menu_content {
-  margin: 1em 0;
-}
+  & .menu_content {
+    margin: 1em 0;
+  }
 
-.menu_tags {
-  color: #888;
-  font-size: 85%;
-  margin-top: 1em;
-}
-.menu_tag {
-  display: inline-block;
-}
-.menu_tag:first-child:before {
-  content: '› ';
-}
-.menu_tag:not(:last-child):after {
-  content: ', ';
+  & .menu_tags {
+    color: #888;
+    font-size: 85%;
+    margin-top: 1em;
+
+    & .menu_tag {
+      display: inline-block;
+
+      &:first-child:before {
+        content: '› ';
+      }
+      &:not(:last-child):after {
+        content: ', ';
+      }
+    }
+  }
 }
 
 .list .list_footer {

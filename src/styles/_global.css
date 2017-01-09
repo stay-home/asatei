@@ -13,10 +13,11 @@ body {
 
 a {
   color: var(--color-link);
-}
-a:hover {
-  color: var(--color-hover);
-  text-decoration: none;
+
+  &:hover {
+    color: var(--color-hover);
+    text-decoration: none;
+  }
 }
 
 .img-responsive {

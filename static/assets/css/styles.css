@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 a {
-  color: #477;
+  color: #477
 }
 a:hover {
   color: #6aa;
@@ -26,16 +26,16 @@ a:hover {
   background-color: #f0f0e8;
   padding: 3em 0;
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 2em
 }
-.mainHeader_title {
+.mainHeader .mainHeader_title {
   color: #444;
   font-size: 240%;
   font-weight: bold;
   margin-bottom: 32px;
   margin-bottom: 2rem;
 }
-.mainHeader_description {
+.mainHeader .mainHeader_description {
   font-size: 100%;
 }
 .header_title {
@@ -56,15 +56,17 @@ a:hover {
 /*
  * toppage
  */
-.toppage_shop {
+.toppage {
+}
+.toppage .toppage_shop {
   margin-bottom: 2em;
 }
-.toppage_title {
+.toppage .toppage_title {
   font-size: 140%;
   font-weight: bold;
   margin: 1em 0 .5em;
 }
-.toppage_caption {
+.toppage .toppage_caption {
   font-size: 85%;
 }
 /*
@@ -72,22 +74,26 @@ a:hover {
  */
 .sidebar {
 }
-.sidebar_title {
-  font-size: 130%;
-}
-.sidebar section {
+.sidebar .sidebar section {
   margin-bottom: 3em;
 }
-.sidebar_list > li {
+.sidebar .sidebar_title {
+  font-size: 130%;
+}
+.sidebar .sidebar_list {
+}
+.sidebar .sidebar_list > li {
   margin-bottom: 0.3em;
 }
-.sidebar_list .badge {
+.sidebar .sidebar_list .badge {
   background-color: #6aa;
 }
-.sidebar_shops li img {
+.sidebar .sidebar_shops {
+}
+.sidebar .sidebar_shops li img {
   max-width: 50px;
 }
-.sidebar_shops .sidebar_shopname {
+.sidebar .sidebar_shops .sidebar_shopname {
   font-size: 110%;
   font-weight: bold;
 }
@@ -114,38 +120,38 @@ a:hover {
       flex-wrap: wrap;
 }
 .menu {
-  margin-bottom: 2em;
+  margin-bottom: 2em
 }
-.menu_shopname {
+.menu .menu_shopname {
   font-size: 140%;
   font-weight: bold;
   margin-bottom: .5em;
 }
-.menu_title {
+.menu .menu_title {
   font-size: 130%;
   font-weight: bold;
   margin: .5em 0;
 }
-.menu_price {
+.menu .menu_price {
   font-size: 130%;
   font-weight: bold;
   margin: .5em 0;
 }
-.menu_content {
+.menu .menu_content {
   margin: 1em 0;
 }
-.menu_tags {
+.menu .menu_tags {
   color: #888;
   font-size: 85%;
   margin-top: 1em;
 }
-.menu_tag {
+.menu .menu_tags .menu_tag {
   display: inline-block;
 }
-.menu_tag:first-child:before {
+.menu .menu_tags .menu_tag:first-child:before {
   content: '› ';
 }
-.menu_tag:not(:last-child):after {
+.menu .menu_tags .menu_tag:not(:last-child):after {
   content: ', ';
 }
 .list .list_footer {
