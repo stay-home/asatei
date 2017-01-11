@@ -1,3 +1,6 @@
+{{ define "kind" }}{{ if .Data.Singular }}tag{{ else }}shop{{ end }}{{ end }}
+
+
 {{ define "title" }}
 {{ $is_tag := .Data.Singular }}
 {{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}

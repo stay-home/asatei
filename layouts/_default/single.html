@@ -1,3 +1,6 @@
+{{ define "kind" }}post{{ end }}
+
+
 {{ define "title" }}
 {{ .Title }} | {{ (index $.Site.Data.shops .Section).name }} のメニュー | {{ .Site.Title }}
 {{ end }}
