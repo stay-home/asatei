@@ -1,13 +1,9 @@
-{{ partial "header.html" . }}
+{{ define "title" }}
+{{ .Title }} | {{ (index $.Site.Data.shops .Section).name }} のメニュー | {{ .Site.Title }}
+{{ end }}
 
-<main class="container">
 
-  {{ if .Params.youtube }}
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" id="player" type="text/html" src="//www.youtube.com/embed/{{ .Params.youtube }}?enablejsapi=1" frameborder="0"></iframe>
-  </div>
-  {{ end }}
-
+{{ define "main" }}
   <h3>{{ .Title }}</h3>
 
   {{ .Content }}
@@ -18,7 +14,4 @@
     <a href="/tags/{{ . | urlize }}">{{ . }}</a>
     {{ end }}
   </footer>
-
-</main>
-
-{{ partial "footer.html" . }}
+{{ end }}

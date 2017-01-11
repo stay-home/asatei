@@ -1,35 +1,21 @@
-{{ partial "header.html" . }}
-
-<div class="container">
-  <div class="row">
-
-    <main class="toppage col-md-9">
-      <header>
-        <h3 class="toppage_title header_title">店舗から選ぶ</h3>
-      </header>
+{{ define "main" }}
+  <header>
+    <h3 class="toppage_title header_title">店舗から選ぶ</h3>
+  </header>
 
 
-      {{ partial "ad/top.html" . }}
+  {{ partial "ad/top.html" . }}
 
 
-      <div class="row articles">
-        {{ range $i, $shop := sort .Site.Data.shops "order" }}
-          <article class="toppage_shop col-xs-6 col-sm-4 col-md-3">
-            <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
-              <img src="/assets/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
-              <h1 class="toppage_title">{{ $shop.name }}</h1>
-              <p class="toppage_caption">販売時間: {{ $shop.time }}</p>
-            </a>
-          </article>
-        {{ end }}
-      </div>
-    </main>
-
-
-    {{ partial "sidebar.html" . }}
-
-
+  <div class="row articles">
+    {{ range $i, $shop := sort .Site.Data.shops "order" }}
+      <article class="toppage_shop col-xs-6 col-sm-4 col-md-3">
+        <a href="{{ $.Site.BaseURL }}{{ $shop.id }}/">
+          <img src="/assets/img/{{$shop.id}}/logo.jpg" alt="{{$shop.name}}" class="img-responsive">
+          <h1 class="toppage_title">{{ $shop.name }}</h1>
+          <p class="toppage_caption">販売時間: {{ $shop.time }}</p>
+        </a>
+      </article>
+    {{ end }}
   </div>
-</div>
-
-{{ partial "footer.html" . }}
+{{ end }}

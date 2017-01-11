@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>{{ block "title" . }}{{ .Site.Title }} (朝定食データベース){{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ block "description" . }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/icon.jpg">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/styles.css">
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="{{ .Site.BaseURL }}assets/js/scripts.js"></script>
+</head>
+
+<body class="body-{{ .Kind }}">
+<header class="mainHeader">
+  <div class="container">
+    <h1 class="mainHeader_title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <h2 class="mainHeader_description">{{ .Site.Params.description }}</h2>
+  </div>
+</header>
+
+
+<div class="container">
+  <div class="row">
+    <main class="col-md-9">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+
+
+<div class="container">
+  {{ partial "ad/bottom.html" . }}
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-center">
+      <small>&copy; 2016 <a href="/">{{ .Site.Title }}</a></small>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

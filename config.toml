@@ -1,7 +1,7 @@
 languageCode = "ja-jp"
 title = "アサテイ！"
 baseurl = "/"
-paginate = 12
+paginate = 30
 buildFuture = false
 
 [taxonomies]

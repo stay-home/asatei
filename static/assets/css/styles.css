@@ -56,17 +56,17 @@ a:hover {
 /*
  * toppage
  */
-.toppage {
+.body-home {
 }
-.toppage .toppage_shop {
+.body-home .toppage_shop {
   margin-bottom: 2em;
 }
-.toppage .toppage_title {
+.body-home .toppage_title {
   font-size: 140%;
   font-weight: bold;
   margin: 1em 0 .5em;
 }
-.toppage .toppage_caption {
+.body-home .toppage_caption {
   font-size: 85%;
 }
 /*
