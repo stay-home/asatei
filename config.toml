@@ -1,11 +1,9 @@
-languageCode = "ja-jp"
+languageCode = "JP"
 title = "アサテイ！"
 baseurl = "/"
 paginate = 30
 buildFuture = false
-
-[taxonomies]
-tag = "tags"
+preserveTaxonomyNames = true
 
 [Params]
 description = "牛丼チェーン店をはじめとする、朝定食のまとめサイトです。"
