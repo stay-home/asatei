@@ -39,12 +39,13 @@ foreach ($data as $key => $a) {
     $tags = json_encode($tags, JSON_UNESCAPED_UNICODE);
 
     $data = <<< _END
----
-weight: "{$key}"
-title: {$a['title']}
-tags: {$tags}
-price: {$a['price']}
----
++++
+weight = {$key}
+title  = "{$a['title']}"
+slug   = "{$a['slug']}"
+tags   = {$tags}
+price  = {$a['price']}
++++
 
 {$a['content']}
 _END;

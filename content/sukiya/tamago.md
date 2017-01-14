@@ -1,7 +1,8 @@
----
-weight: "22"
-title: たまごかけごはん朝食
-tags: ["生卵","300円以下"]
-price: 250
----
++++
+weight = 22
+title  = "たまごかけごはん朝食"
+slug   = "tamago"
+tags   = ["生卵","300円以下"]
+price  = 250
++++
 
