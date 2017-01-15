@@ -5,7 +5,10 @@
   <title>{{ block "title" . }}{{ .Site.Title }} (朝定食データベース){{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ block "description" . }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/icon.jpg">
+  <meta property="og:image" content="{{ block "ogimage" . }}https://asatei.ml/assets/img/apple-touch-icon.png{{ end }}" />
+  <link rel="icon" href="https://asatei.ml/assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="https://asatei.ml/assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://asatei.ml/assets/img/apple-touch-icon.png">
   <link rel="alternate" hreflang="ja" href="https://asatei.ml/">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/styles.css">

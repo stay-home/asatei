@@ -7,6 +7,8 @@
 {{ if $is_tag }}{{ .Title }} のメニュー | {{ .Site.Title }} (朝定食データベース){{ else }}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}
 {{ end }}
 
+{{ define "ogimage" }}https://asatei.ml/assets/img/{{ if .Data.Singular }}apple-touch-icon.png{{ else }}{{ (index .Data.Pages 0).Section }}/logo.jpg{{ end }}{{ end }}
+
 
 {{ define "main" }}
 

@@ -5,6 +5,8 @@
 {{ .Title }} | {{ (index $.Site.Data.shops .Section).name }} のメニュー | {{ .Site.Title }}
 {{ end }}
 
+{{ define "ogimage" }}https://asatei.ml/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg{{ end }}
+
 
 {{ define "main" }}
 
