@@ -1,140 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://asatei.ml/</loc>
+  </url>
+
   
   <url>
-    <loc>/</loc>
+    <loc>https://asatei.ml/yoshinoya/</loc>
+    <image:image>
+      <image:loc>https://asatei.ml/assets/img/yoshinoya/logo.jpg</image:loc>
+      <image:caption>吉野家</image:caption>
+    </image:image>
   </url>
   
   <url>
-    <loc>/yoshinoya/torisoboro/</loc>
+    <loc>https://asatei.ml/sukiya/</loc>
+    <image:image>
+      <image:loc>https://asatei.ml/assets/img/sukiya/logo.jpg</image:loc>
+      <image:caption>すき家</image:caption>
+    </image:image>
   </url>
   
   <url>
-    <loc>/yoshinoya/torisoboro-gyu/</loc>
+    <loc>https://asatei.ml/matsuya/</loc>
+    <image:image>
+      <image:loc>https://asatei.ml/assets/img/matsuya/logo.jpg</image:loc>
+      <image:caption>松屋</image:caption>
+    </image:image>
   </url>
   
   <url>
-    <loc>/yoshinoya/tofu-bukkake/</loc>
+    <loc>https://asatei.ml/nakau/</loc>
+    <image:image>
+      <image:loc>https://asatei.ml/assets/img/nakau/logo.jpg</image:loc>
+      <image:caption>なか卯</image:caption>
+    </image:image>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://asatei.ml/tags/300円以下/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/tofu-bukkake-gyu/</loc>
+    <loc>https://asatei.ml/tags/400円以下/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/nattou/</loc>
+    <loc>https://asatei.ml/tags/500円以下/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/nattou-gyu/</loc>
+    <loc>https://asatei.ml/tags/600円以下/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/yakizakana/</loc>
+    <loc>https://asatei.ml/tags/ベーコン/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/yakizakana-gyu/</loc>
+    <loc>https://asatei.ml/tags/丼/</loc>
   </url>
   
   <url>
-    <loc>/yoshinoya/tokuasa/</loc>
+    <loc>https://asatei.ml/tags/焼魚/</loc>
   </url>
   
   <url>
-    <loc>/nakau/nikusui/</loc>
+    <loc>https://asatei.ml/tags/牛小鉢/</loc>
   </url>
   
   <url>
-    <loc>/nakau/maze-gyu/</loc>
+    <loc>https://asatei.ml/tags/生卵/</loc>
   </url>
   
   <url>
-    <loc>/nakau/maze-nattou/</loc>
+    <loc>https://asatei.ml/tags/目玉焼き/</loc>
   </url>
   
   <url>
-    <loc>/nakau/tamago/</loc>
+    <loc>https://asatei.ml/tags/納豆/</loc>
   </url>
   
   <url>
-    <loc>/nakau/gyushake/</loc>
+    <loc>https://asatei.ml/tags/肉すい/</loc>
   </url>
   
   <url>
-    <loc>/nakau/medamayaki/</loc>
-  </url>
-  
-  <url>
-    <loc>/nakau/w-medamayaki/</loc>
-  </url>
-  
-  <url>
-    <loc>/nakau/medamayaki-gyu/</loc>
-  </url>
-  
-  <url>
-    <loc>/nakau/medamayaki-nattou/</loc>
-  </url>
-  
-  <url>
-    <loc>/matsuya/teiban/</loc>
-  </url>
-  
-  <url>
-    <loc>/matsuya/yakijake/</loc>
-  </url>
-  
-  <url>
-    <loc>/matsuya/sausage-egg/</loc>
-  </url>
-  
-  <url>
-    <loc>/matsuya/sausage-egg-w/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/tamago/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/nattou-tamago/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/sake-tamago/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/siosaba-tamago/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/bacon-tamago/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/asaduke/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/nattou-asaduke/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/sake-asaduke/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/siosaba-asaduke/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/bacon-asaduke/</loc>
-  </url>
-  
-  <url>
-    <loc>/sukiya/mazenokke/</loc>
+    <loc>https://asatei.ml/tags/豆腐/</loc>
   </url>
   
 </urlset>
