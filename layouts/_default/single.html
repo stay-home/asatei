@@ -7,14 +7,31 @@
 
 
 {{ define "main" }}
-  <h3>{{ .Title }}</h3>
 
-  {{ .Content }}
+{{ partial "ad/top.html" . }}
 
-  <footer>
-    <time>{{ if .Site.Params.strings.date_format }}{{ .Date.Format .Site.Params.strings.date_format }}{{ else }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
-    {{ range $i, $e :=.Params.tags }}
-    <a href="/tags/{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
+<article>
+  <header class="list_header">
+    <h1 class="list_title header_title">{{ .Title }}</h1>
+    <h2 class="menu_shopname"><a href="/{{.Section}}/">{{ (index $.Site.Data.shops .Section).name }}</a></h2>
+  </header>
+
+  <main>
+    <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}">
+
+    <h2 class="menu_price">{{ .Params.price }} 円</h2>
+    <div class="menu_content">
+      {{ .Content }}
+    </div>
+  </main>
+
+
+  <footer class="menu_meta">
+    <ul class="menu_tags list-unstyled">
+      {{ range $i, $e :=.Params.tags }}
+      <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
   </footer>
+</article>
 {{ end }}
