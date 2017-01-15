@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アサテイ！</title>
+    <link>/tags/%E7%84%BC%E9%AD%9A/index.xml</link>
+    <description>Recent content on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="/tags/%E7%84%BC%E9%AD%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>塩さばたまごかけごはん朝食</title>
+      <link>/sukiya/siosaba-tamago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/siosaba-tamago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>塩さば浅漬け朝食</title>
+      <link>/sukiya/siosaba-asaduke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/siosaba-asaduke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焼魚定食</title>
+      <link>/yoshinoya/yakizakana/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/yakizakana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焼魚牛小鉢定食</title>
+      <link>/yoshinoya/yakizakana-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/yakizakana-gyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焼鮭定食</title>
+      <link>/matsuya/yakijake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/matsuya/yakijake/</guid>
+      <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>牛鮭朝定食</title>
+      <link>/nakau/gyushake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/gyushake/</guid>
+      <description>&lt;p&gt;とん汁変更 480円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>特朝定食</title>
+      <link>/yoshinoya/tokuasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tokuasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>鮭たまごかけごはん朝食</title>
+      <link>/sukiya/sake-tamago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/sake-tamago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>鮭浅漬け朝食</title>
+      <link>/sukiya/sake-asaduke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/sake-asaduke/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

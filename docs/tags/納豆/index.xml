@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アサテイ！</title>
+    <link>/tags/%E7%B4%8D%E8%B1%86/index.xml</link>
+    <description>Recent content on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="/tags/%E7%B4%8D%E8%B1%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ソーセージエッグW定食</title>
+      <link>/matsuya/sausage-egg-w/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/matsuya/sausage-egg-w/</guid>
+      <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ソーセージエッグ定食</title>
+      <link>/matsuya/sausage-egg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/matsuya/sausage-egg/</guid>
+      <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>定番朝定食</title>
+      <link>/matsuya/teiban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/matsuya/teiban/</guid>
+      <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>朝まぜごはん納豆定食</title>
+      <link>/nakau/maze-nattou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/maze-nattou/</guid>
+      <description>&lt;p&gt;とん汁変更 380円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>焼鮭定食</title>
+      <link>/matsuya/yakijake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/matsuya/yakijake/</guid>
+      <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>特朝定食</title>
+      <link>/yoshinoya/tokuasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tokuasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>目玉焼き納豆朝定食</title>
+      <link>/nakau/medamayaki-nattou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/medamayaki-nattou/</guid>
+      <description>&lt;p&gt;とん汁変更 380円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>納豆たまごかけごはん朝食</title>
+      <link>/sukiya/nattou-tamago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/nattou-tamago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>納豆定食</title>
+      <link>/yoshinoya/nattou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/nattou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>納豆牛小鉢定食</title>
+      <link>/yoshinoya/nattou-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/nattou-gyu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

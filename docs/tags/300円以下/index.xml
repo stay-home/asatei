@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アサテイ！</title>
+    <link>/tags/300%E5%86%86%E4%BB%A5%E4%B8%8B/index.xml</link>
+    <description>Recent content on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="/tags/300%E5%86%86%E4%BB%A5%E4%B8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>こだわり卵朝定食</title>
+      <link>/nakau/tamago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/tamago/</guid>
+      <description>&lt;p&gt;とん汁変更 280円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>たまごかけごはん朝食</title>
+      <link>/sukiya/tamago/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/tamago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>浅漬け朝食</title>
+      <link>/sukiya/asaduke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sukiya/asaduke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>目玉焼き朝定食</title>
+      <link>/nakau/medamayaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/medamayaki/</guid>
+      <description>&lt;p&gt;とん汁変更 300円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>豆腐ぶっかけ飯 〜鯛だし味〜</title>
+      <link>/yoshinoya/tofu-bukkake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tofu-bukkake/</guid>
+      <description>&lt;p&gt;大盛 450円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>鶏そぼろ飯</title>
+      <link>/yoshinoya/torisoboro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/torisoboro/</guid>
+      <description>&lt;p&gt;大盛 450円&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

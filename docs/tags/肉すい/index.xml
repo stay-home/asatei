@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アサテイ！</title>
+    <link>/tags/%E8%82%89%E3%81%99%E3%81%84/index.xml</link>
+    <description>Recent content on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="/tags/%E8%82%89%E3%81%99%E3%81%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>肉すい朝定食</title>
+      <link>/nakau/nikusui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nakau/nikusui/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

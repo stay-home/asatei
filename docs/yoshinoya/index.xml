@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yoshinoya-rsses on アサテイ！</title>
+    <link>/yoshinoya/index.xml</link>
+    <description>Recent content in Yoshinoya-rsses on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="/yoshinoya/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>鶏そぼろ飯</title>
+      <link>/yoshinoya/torisoboro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/torisoboro/</guid>
+      <description>&lt;p&gt;大盛 450円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>鶏そぼろ牛小鉢飯</title>
+      <link>/yoshinoya/torisoboro-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/torisoboro-gyu/</guid>
+      <description>&lt;p&gt;大盛 590円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>豆腐ぶっかけ飯 〜鯛だし味〜</title>
+      <link>/yoshinoya/tofu-bukkake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tofu-bukkake/</guid>
+      <description>&lt;p&gt;大盛 450円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>豆腐ぶっかけ牛小鉢飯 〜鯛だし味〜</title>
+      <link>/yoshinoya/tofu-bukkake-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tofu-bukkake-gyu/</guid>
+      <description>&lt;p&gt;大盛 590円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>納豆定食</title>
+      <link>/yoshinoya/nattou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/nattou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>納豆牛小鉢定食</title>
+      <link>/yoshinoya/nattou-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/nattou-gyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焼魚定食</title>
+      <link>/yoshinoya/yakizakana/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/yakizakana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>焼魚牛小鉢定食</title>
+      <link>/yoshinoya/yakizakana-gyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/yakizakana-gyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>特朝定食</title>
+      <link>/yoshinoya/tokuasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/yoshinoya/tokuasa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

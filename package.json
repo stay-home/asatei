@@ -19,7 +19,7 @@
     "build": "rm -rf public && npm run build:css && npm run build:js && npm run build:hugo",
     "build:css": "postcss -c .postcssrc.json",
     "build:js": "webpack",
-    "build:hugo": "hugo",
+    "build:hugo": "rm -rf docs && hugo && mv public docs",
     "watch": "npm run watch:css & npm run:watch:js & npm run watch:hugo",
     "watch:css": "postcss -w -c .postcssrc.json",
     "watch:js": "webpack -w",
