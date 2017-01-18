@@ -1,6 +1,6 @@
 languageCode = "JP"
 title = "アサテイ！"
-baseurl = "/"
+baseurl = "https://asatei.h000.net/"
 paginate = 30
 buildFuture = false
 preserveTaxonomyNames = true
