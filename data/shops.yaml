@@ -3,26 +3,38 @@ yoshinoya:
   name: 吉野家
   content: "ご飯大盛り +30円 ／ 味噌汁をけんちん汁に変更 +100円、豚汁に変更 ＋130円 ／ 納豆単品 80円"
   time: 04:00〜11:00
-  site: https://www.yoshinoya.com/menu/morningset/
+  site:
+    top: https://www.yoshinoya.com/
+    menu: https://www.yoshinoya.com/menu/morningset/
+    search: https://map.yoshinoya.com/p/shopmap/
   order: 1
 
 matsuya:
   id: matsuya
   name: 松屋
   time: 05:00〜11:00
-  site: https://www.matsuyafoods.co.jp/menu/morning/
+  site:
+    top: https://www.matsuyafoods.co.jp/
+    menu: https://www.matsuyafoods.co.jp/menu/morning/
+    search: https://pkg.navitime.co.jp/matsuyafoods/
   order: 3
 
 sukiya:
   id: sukiya
   name: すき家
   time: 05:00〜11:00
-  site: http://www.sukiya.jp/menu/in/morning/
+  site:
+    top: http://www.sukiya.jp/
+    menu: http://www.sukiya.jp/menu/in/morning/
+    search: http://maps.sukiya.jp/p/zen004/
   order: 2
 
 nakau:
   id: nakau
   name: なか卯
   time: 05:00〜10:00
-  site: http://www.nakau.co.jp/jp/menu/category
+  site:
+    top: http://www.nakau.co.jp/
+    menu: http://www.nakau.co.jp/jp/menu/category
+    search: http://maps.nakau.co.jp/p/zen009/
   order: 4
