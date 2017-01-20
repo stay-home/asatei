@@ -1,0 +1,68 @@
+{{ define "kind" }}shop{{ end }}
+
+
+{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}
+
+
+{{ define "description" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}「{{ $shop.name }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}
+
+
+{{ define "ogimage" }}https://asatei.ml/assets/img/{{ (index .Data.Pages 0).Section }}/logo.jpg{{ end }}
+
+
+{{ define "main" }}
+
+{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}
+
+
+<header class="list_header">
+  <h1 class="list_title header_title">{{ $shop.name }} の朝定食</h1>
+  <h2 class="list_caption">販売時間: {{ $shop.time }}</h2>
+  <p>{{ $shop.name }} の朝定食メニュー一覧です。</p>
+</header>
+
+
+{{ partial "ad/top.html" . }}
+
+
+<div class="articles">
+  {{ range (.Paginator).Pages }}
+
+  <article class="menu col-xs-6 col-sm-4 col-md-4">
+
+    <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
+    <h1 class="menu_title">{{ .Title }}</h1>
+    <h2 class="menu_price">{{ .Params.price }} 円</h2>
+    <div class="menu_content">
+      {{ .Content }}
+    </div>
+
+    <footer class="menu_meta">
+      <ul class="menu_tags list-unstyled">
+        {{ range $i, $e :=.Params.tags }}
+        <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </footer>
+
+  </article>
+  {{ end }}
+</div>
+
+<div class="text-center">
+  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+  {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</div>
+
+<footer class="list_footer">
+  <h1 class="list_title header_title">その他の情報</h1>
+  <div class="list_caption">
+    <p>{{ $shop.content }}</p>
+    <a href="{{ $shop.site.menu }}" class="btn btn-info" target="_blank">公式サイト <span class="glyphicon glyphicon-new-window"></span></a>
+    &nbsp;
+    <a href="{{ $shop.site.search }}" class="btn btn-info" target="_blank">店舗検索 <span class="glyphicon glyphicon-new-window"></span></a>
+  </div>
+</footer>
+
+{{ end }}
