@@ -2,7 +2,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://asatei.ml/</loc>
+    <loc>{{ $.Site.BaseURL }}</loc>
   </url>
 
   {{ range $i, $shop := sort .Site.Data.shops "order" }}
