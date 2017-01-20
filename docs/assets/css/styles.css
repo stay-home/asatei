@@ -126,6 +126,14 @@ a:hover {
 .menu {
   margin-bottom: 2em
 }
+.menu.col-xs-6 {
+}
+.menu.col-xs-6:nth-child(odd) {
+  padding-left: 0;
+}
+.menu.col-xs-6:nth-child(even) {
+  padding-right: 0;
+}
 .menu .menu_shopname {
   font-size: 140%;
   font-weight: bold;
