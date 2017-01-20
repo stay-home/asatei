@@ -7,9 +7,9 @@
 
   {{ range $i, $shop := sort .Site.Data.shops "order" }}
   <url>
-    <loc>https://asatei.ml/{{ $shop.id }}/</loc>
+    <loc>{{ $.Site.BaseURL }}{{ $shop.id }}/</loc>
     <image:image>
-      <image:loc>https://asatei.ml/assets/img/{{$shop.id}}/logo.jpg</image:loc>
+      <image:loc>{{ $.Site.BaseURL }}assets/img/{{$shop.id}}/logo.jpg</image:loc>
       <image:caption>{{$shop.name}}</image:caption>
     </image:image>
   </url>
@@ -17,7 +17,7 @@
 
   {{ range $name, $value := .Site.Taxonomies.tags }}
   <url>
-    <loc>https://asatei.ml/tags/{{ $name }}/</loc>
+    <loc>{{ $.Site.BaseURL }}tags/{{ $name }}/</loc>
   </url>
   {{ end }}
 </urlset>
