@@ -2,7 +2,7 @@
 weight = 12
 title  = "こだわり卵朝定食"
 slug   = "tamago"
-tags   = ["生卵","300円以下"]
+tags   = ["卵","300円以下"]
 price  = 230
 +++
 

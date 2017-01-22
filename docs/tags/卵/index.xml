@@ -2,11 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>アサテイ！</title>
-    <link>https://asatei.h000.net/tags/%E7%94%9F%E5%8D%B5/index.xml</link>
+    <link>https://asatei.h000.net/tags/%E5%8D%B5/index.xml</link>
     <description>Recent content on アサテイ！</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>JP</language>
-    <atom:link href="https://asatei.h000.net/tags/%E7%94%9F%E5%8D%B5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://asatei.h000.net/tags/%E5%8D%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>きつね温泉玉子そば</title>
+      <link>https://asatei.h000.net/fujisoba/kitsune/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/fujisoba/kitsune/</guid>
+      <description>&lt;p&gt;温・冷、うどんも選択可&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>こだわり卵朝定食</title>
@@ -15,6 +25,16 @@
       
       <guid>https://asatei.h000.net/nakau/tamago/</guid>
       <description>&lt;p&gt;とん汁変更 280円&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>たぬき温泉玉子そば</title>
+      <link>https://asatei.h000.net/fujisoba/tanuki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/fujisoba/tanuki/</guid>
+      <description>&lt;p&gt;温・冷、うどんも選択可&lt;/p&gt;
 </description>
     </item>
     
@@ -103,6 +123,15 @@
     </item>
     
     <item>
+      <title>納豆・そば</title>
+      <link>https://asatei.h000.net/yudetaro/nattou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/yudetaro/nattou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>納豆定食</title>
       <link>https://asatei.h000.net/yoshinoya/nattou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -117,34 +146,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://asatei.h000.net/sukiya/nattou-asaduke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>肉すい朝定食</title>
-      <link>https://asatei.h000.net/nakau/nikusui/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://asatei.h000.net/nakau/nikusui/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>豚汁定食</title>
-      <link>https://asatei.h000.net/matsunoya/tonjiru/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://asatei.h000.net/matsunoya/tonjiru/</guid>
-      <description>&lt;p&gt;コロッケまたは豆腐を選択&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>鮭たまごかけごはん朝食</title>
-      <link>https://asatei.h000.net/sukiya/sake-tamago/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://asatei.h000.net/sukiya/sake-tamago/</guid>
       <description></description>
     </item>
     

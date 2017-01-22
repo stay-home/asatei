@@ -47,7 +47,7 @@ katsuya:
     top: http://www.arclandservice.co.jp/katsuya/
     menu: http://www.arclandservice.co.jp/katsuya/asa.html
     search: http://www.arclandservice.co.jp/katsuya/shoplist.html
-  order: 5
+  order: 6
 
 matsunoya:
   id: matsunoya
@@ -57,4 +57,55 @@ matsunoya:
     top: https://www.matsuyafoods.co.jp/matsunoya/
     menu: https://www.matsuyafoods.co.jp/matsunoya/menu/
     search: https://www.matsuyafoods.co.jp/matsunoya/shops/
-  order: 6
+  order: 5
+
+yudetaro:
+  id: yudetaro
+  name: ゆで太郎
+  time: 07:00〜11:00
+  site:
+    top: http://yudetaro.jp/
+    menu: http://yudetaro.jp/menu.html
+    search: http://yudetaro.jp/shop.html
+  order: 8
+
+#komorosoba:
+#  id: komorosoba
+#  name: 小諸そば
+#  time:
+#  site:
+#    top: http://www.k-mitsuwa.co.jp/komorodiv/
+#    menu: http://www.k-mitsuwa.co.jp/komorodiv/menusyoukai.html
+#    search: http://www.k-mitsuwa.co.jp/komorodiv/tenpo.html
+#  order: 7
+
+fujisoba:
+  id: fujisoba
+  name: 富士そば
+  time: 05:00〜11:00
+  site:
+    top: http://fujisoba.co.jp/
+    menu: http://fujisoba.co.jp/menu/
+    search: http://fujisoba.co.jp/shop/
+  order: 9
+
+iwamotoq:
+  id: iwamotoq
+  name: いわもとQ
+  time: 06:00〜10:00
+  site:
+    top: http://iwamotoq.co.jp/
+    menu: http://iwamotoq.co.jp/menu.html
+    search: http://iwamotoq.co.jp/shop.html
+  order: 10
+
+#sagatani:
+#  id: sagatani
+#  name: 嵯峨谷
+#  time:
+#  site:
+#    top:
+#    menu:
+#    search:
+#  order: 11
+
