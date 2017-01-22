@@ -17,6 +17,7 @@
 </head>
 
 <body class="body-{{ block "kind" . }}default{{ end }}">
+{{ partial "tags.html" . }}
 <header class="mainHeader">
   <div class="container">
     <h1 class="mainHeader_title"><a href="/">{{ .Site.Title }}</a></h1>
