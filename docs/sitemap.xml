@@ -39,6 +39,22 @@
     </image:image>
   </url>
   
+  <url>
+    <loc>https://asatei.h000.net/katsuya/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/katsuya/logo.jpg</image:loc>
+      <image:caption>かつや</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/matsunoya/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/matsunoya/logo.jpg</image:loc>
+      <image:caption>松のや・松乃家</image:caption>
+    </image:image>
+  </url>
+  
 
   
   <url>
@@ -55,6 +71,14 @@
   
   <url>
     <loc>https://asatei.h000.net/tags/600円以下/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/コロッケ/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/トンカツ/</loc>
   </url>
   
   <url>
@@ -91,6 +115,10 @@
   
   <url>
     <loc>https://asatei.h000.net/tags/豆腐/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/豚汁/</loc>
   </url>
   
 </urlset>

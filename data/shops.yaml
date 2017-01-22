@@ -38,3 +38,23 @@ nakau:
     menu: http://www.nakau.co.jp/jp/menu/category
     search: http://maps.nakau.co.jp/p/zen009/
   order: 4
+
+katsuya:
+  id: katsuya
+  name: かつや
+  time: 07:00〜11:00
+  site:
+    top: http://www.arclandservice.co.jp/katsuya/
+    menu: http://www.arclandservice.co.jp/katsuya/asa.html
+    search: http://www.arclandservice.co.jp/katsuya/shoplist.html
+  order: 5
+
+matsunoya:
+  id: matsunoya
+  name: 松のや・松乃家
+  time: 05:00〜11:00
+  site:
+    top: https://www.matsuyafoods.co.jp/matsunoya/
+    menu: https://www.matsuyafoods.co.jp/matsunoya/menu/
+    search: https://www.matsuyafoods.co.jp/matsunoya/shops/
+  order: 6

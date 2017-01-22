@@ -32,7 +32,7 @@
   <div class="articles">
     {{ range (.Paginator).Pages }}
 
-      <article class="menu col-xs-12 col-sm-6 col-md-4">
+      <article class="menu col-xs-6 col-md-4">
 
         {{ if $is_tag }}
           <h3 class="menu_shopname"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>

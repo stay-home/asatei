@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matsunoya-rsses on アサテイ！</title>
+    <link>https://asatei.h000.net/matsunoya/index.xml</link>
+    <description>Recent content in Matsunoya-rsses on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="https://asatei.h000.net/matsunoya/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>得朝ロースカツ定食</title>
+      <link>https://asatei.h000.net/matsunoya/loin-katsu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/matsunoya/loin-katsu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ソーセージエッグ定食</title>
+      <link>https://asatei.h000.net/matsunoya/sausage-eggs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/matsunoya/sausage-eggs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>豚汁定食</title>
+      <link>https://asatei.h000.net/matsunoya/tonjiru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/matsunoya/tonjiru/</guid>
+      <description>&lt;p&gt;コロッケまたは豆腐を選択&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
