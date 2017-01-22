@@ -1,0 +1,53 @@
+{{ define "kind" }}tag{{ end }}
+
+
+{{ define "title" }}{{ .Title }} の朝定食メニュー | {{ .Site.Title }} (朝定食データベース){{ end }}
+
+
+{{ define "description" }}「{{ .Title }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}
+
+
+{{ define "main" }}
+
+<header class="list_header">
+  <h1 class="list_title header_title">{{ .Title }} のメニュー</h1>
+  <p>{{ .Title }} の朝定食メニューを集めました。</p>
+</header>
+
+
+{{ partial "ad/top.html" . }}
+
+
+<div class="articles">
+  {{ range (.Paginator).Pages }}
+
+  <article class="menu col-xs-12 col-sm-6 col-md-4">
+
+    <h3 class="menu_shopname"><a href="/{{ .Section }}/">{{ (index $.Site.Data.shops .Section).name }}</a></h3>
+
+    <img src="/assets/img{{ replaceRE "(/?)$" "" .RelPermalink }}.jpg" alt="{{ .Title }}" class="img-responsive">
+    <h1 class="menu_title">{{ .Title }}</h1>
+    <h2 class="menu_price">{{ .Params.price }} 円</h2>
+    <div class="menu_content">
+      {{ .Content }}
+    </div>
+
+    <footer class="menu_meta">
+      <ul class="menu_tags list-unstyled">
+        {{ range $i, $e :=.Params.tags }}
+        <li class="menu_tag"><a href="/tags/{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </footer>
+
+  </article>
+  {{ end }}
+</div>
+
+<div class="text-center">
+  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+  {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</div>
+
+{{ end }}

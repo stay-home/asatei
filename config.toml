@@ -1,12 +1,12 @@
 languageCode = "JP"
 title = "アサテイ！"
-baseurl = "/"
+baseurl = "https://asatei.h000.net/"
 paginate = 30
 buildFuture = false
 preserveTaxonomyNames = true
 
 [Params]
-description = "牛丼チェーン店をはじめとする、朝定食のまとめサイトです。"
+description = "牛丼チェーン店をはじめとする、朝定食メニューのまとめサイトです。"
 
 [params.strings]
 date_format = "2006-1-2"

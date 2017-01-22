@@ -1,11 +1,11 @@
 {{ define "kind" }}{{ if .Data.Singular }}tag{{ else }}shop{{ end }}{{ end }}
 
 
-{{ define "title" }}
-{{ $is_tag := .Data.Singular }}
-{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}
-{{ if $is_tag }}{{ .Title }} のメニュー | {{ .Site.Title }} (朝定食データベース){{ else }}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}
-{{ end }}
+{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ if .Data.Singular }}{{ .Title }} の朝定食メニュー | {{ .Site.Title }} (朝定食データベース){{ else }}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}{{ end }}
+
+
+{{ define "description" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ if .Data.Singular }}「{{ .Title }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ else }}「{{ $shop.name }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}{{ end }}
+
 
 {{ define "ogimage" }}https://asatei.ml/assets/img/{{ if .Data.Singular }}apple-touch-icon.png{{ else }}{{ (index .Data.Pages 0).Section }}/logo.jpg{{ end }}{{ end }}
 

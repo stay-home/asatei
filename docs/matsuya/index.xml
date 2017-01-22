@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matsuya-rsses on アサテイ！</title>
-    <link>/matsuya/index.xml</link>
+    <link>https://asatei.h000.net/matsuya/index.xml</link>
     <description>Recent content in Matsuya-rsses on アサテイ！</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>JP</language>
-    <atom:link href="/matsuya/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://asatei.h000.net/matsuya/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>定番朝定食</title>
-      <link>/matsuya/teiban/</link>
+      <link>https://asatei.h000.net/matsuya/teiban/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/matsuya/teiban/</guid>
+      <guid>https://asatei.h000.net/matsuya/teiban/</guid>
       <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>焼鮭定食</title>
-      <link>/matsuya/yakijake/</link>
+      <link>https://asatei.h000.net/matsuya/yakijake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/matsuya/yakijake/</guid>
+      <guid>https://asatei.h000.net/matsuya/yakijake/</guid>
       <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ソーセージエッグ定食</title>
-      <link>/matsuya/sausage-egg/</link>
+      <link>https://asatei.h000.net/matsuya/sausage-egg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/matsuya/sausage-egg/</guid>
+      <guid>https://asatei.h000.net/matsuya/sausage-egg/</guid>
       <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ソーセージエッグW定食</title>
-      <link>/matsuya/sausage-egg-w/</link>
+      <link>https://asatei.h000.net/matsuya/sausage-egg-w/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/matsuya/sausage-egg-w/</guid>
+      <guid>https://asatei.h000.net/matsuya/sausage-egg-w/</guid>
       <description>&lt;p&gt;選べる小鉢 (納豆, とろろ, ミニ牛皿, 冷やっこから1つ選択)&lt;/p&gt;
 </description>
     </item>

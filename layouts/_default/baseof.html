@@ -5,22 +5,21 @@
   <title>{{ block "title" . }}{{ .Site.Title }} (朝定食データベース){{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ block "description" . }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:image" content="{{ block "ogimage" . }}https://asatei.ml/assets/img/apple-touch-icon.png{{ end }}" />
-  <link rel="icon" href="https://asatei.ml/assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
-  <link rel="shortcut icon" href="https://asatei.ml/assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://asatei.ml/assets/img/apple-touch-icon.png">
-  <link rel="alternate" hreflang="ja" href="https://asatei.ml/">
+  <meta property="og:image" content="{{ block "ogimage" . }}{{ .Site.Params.domain }}assets/img/apple-touch-icon.png{{ end }}" />
+  <link rel="icon" href="{{ .Site.BaseURL }}assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}assets/img/apple-touch-icon.png" type="image/vnd.microsoft.icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
   <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="{{ .Site.BaseURL }}assets/js/scripts.js"></script>
+  <script src="/assets/js/scripts.js"></script>
 </head>
 
 <body class="body-{{ block "kind" . }}default{{ end }}">
 <header class="mainHeader">
   <div class="container">
-    <h1 class="mainHeader_title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <h1 class="mainHeader_title"><a href="/">{{ .Site.Title }}</a></h1>
     <h2 class="mainHeader_description">{{ .Site.Params.description }}</h2>
   </div>
 </header>

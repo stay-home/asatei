@@ -3,38 +3,38 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://asatei.ml/</loc>
+    <loc>https://asatei.h000.net/</loc>
   </url>
 
   
   <url>
-    <loc>https://asatei.ml/yoshinoya/</loc>
+    <loc>https://asatei.h000.net/yoshinoya/</loc>
     <image:image>
-      <image:loc>https://asatei.ml/assets/img/yoshinoya/logo.jpg</image:loc>
+      <image:loc>https://asatei.h000.net/assets/img/yoshinoya/logo.jpg</image:loc>
       <image:caption>吉野家</image:caption>
     </image:image>
   </url>
   
   <url>
-    <loc>https://asatei.ml/sukiya/</loc>
+    <loc>https://asatei.h000.net/sukiya/</loc>
     <image:image>
-      <image:loc>https://asatei.ml/assets/img/sukiya/logo.jpg</image:loc>
+      <image:loc>https://asatei.h000.net/assets/img/sukiya/logo.jpg</image:loc>
       <image:caption>すき家</image:caption>
     </image:image>
   </url>
   
   <url>
-    <loc>https://asatei.ml/matsuya/</loc>
+    <loc>https://asatei.h000.net/matsuya/</loc>
     <image:image>
-      <image:loc>https://asatei.ml/assets/img/matsuya/logo.jpg</image:loc>
+      <image:loc>https://asatei.h000.net/assets/img/matsuya/logo.jpg</image:loc>
       <image:caption>松屋</image:caption>
     </image:image>
   </url>
   
   <url>
-    <loc>https://asatei.ml/nakau/</loc>
+    <loc>https://asatei.h000.net/nakau/</loc>
     <image:image>
-      <image:loc>https://asatei.ml/assets/img/nakau/logo.jpg</image:loc>
+      <image:loc>https://asatei.h000.net/assets/img/nakau/logo.jpg</image:loc>
       <image:caption>なか卯</image:caption>
     </image:image>
   </url>
@@ -42,55 +42,55 @@
 
   
   <url>
-    <loc>https://asatei.ml/tags/300円以下/</loc>
+    <loc>https://asatei.h000.net/tags/300円以下/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/400円以下/</loc>
+    <loc>https://asatei.h000.net/tags/400円以下/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/500円以下/</loc>
+    <loc>https://asatei.h000.net/tags/500円以下/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/600円以下/</loc>
+    <loc>https://asatei.h000.net/tags/600円以下/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/ベーコン/</loc>
+    <loc>https://asatei.h000.net/tags/ベーコン/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/丼/</loc>
+    <loc>https://asatei.h000.net/tags/丼/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/焼魚/</loc>
+    <loc>https://asatei.h000.net/tags/焼魚/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/牛小鉢/</loc>
+    <loc>https://asatei.h000.net/tags/牛小鉢/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/生卵/</loc>
+    <loc>https://asatei.h000.net/tags/生卵/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/目玉焼き/</loc>
+    <loc>https://asatei.h000.net/tags/目玉焼き/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/納豆/</loc>
+    <loc>https://asatei.h000.net/tags/納豆/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/肉すい/</loc>
+    <loc>https://asatei.h000.net/tags/肉すい/</loc>
   </url>
   
   <url>
-    <loc>https://asatei.ml/tags/豆腐/</loc>
+    <loc>https://asatei.h000.net/tags/豆腐/</loc>
   </url>
   
 </urlset>

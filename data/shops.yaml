@@ -6,7 +6,7 @@ yoshinoya:
   site:
     top: https://www.yoshinoya.com/
     menu: https://www.yoshinoya.com/menu/morningset/
-    search: https://www.yoshinoya.com/
+    search: https://map.yoshinoya.com/p/shopmap/
   order: 1
 
 matsuya:
@@ -16,7 +16,7 @@ matsuya:
   site:
     top: https://www.matsuyafoods.co.jp/
     menu: https://www.matsuyafoods.co.jp/menu/morning/
-    search:
+    search: https://pkg.navitime.co.jp/matsuyafoods/
   order: 3
 
 sukiya:
@@ -26,7 +26,7 @@ sukiya:
   site:
     top: http://www.sukiya.jp/
     menu: http://www.sukiya.jp/menu/in/morning/
-    search: http://www.sukiya.jp/menu/in/morning/
+    search: http://maps.sukiya.jp/p/zen004/
   order: 2
 
 nakau:
@@ -36,25 +36,5 @@ nakau:
   site:
     top: http://www.nakau.co.jp/
     menu: http://www.nakau.co.jp/jp/menu/category
-    search: http://www.nakau.co.jp/jp/menu/category
+    search: http://maps.nakau.co.jp/p/zen009/
   order: 4
-
-katsuya:
-  id: katsuya
-  name: かつや
-  time: 07:00〜11:00
-  site:
-    top: http://www.arclandservice.co.jp/
-    menu: http://www.arclandservice.co.jp/katsuya/asa.html
-    search: http://www.arclandservice.co.jp/katsuya/asa.html
-  order: 5
-
-matsunoya:
-  id: katsuya
-  name: 松のや
-  time: 05:00〜11:00
-  site:
-    top: https://www.matsuyafoods.co.jp/matsunoya/
-    menu: https://www.matsuyafoods.co.jp/matsunoya/
-    search: https://www.matsuyafoods.co.jp/matsunoya/
-  order: 6
