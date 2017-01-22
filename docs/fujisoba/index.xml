@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fujisoba-rsses on アサテイ！</title>
+    <link>https://asatei.h000.net/fujisoba/index.xml</link>
+    <description>Recent content in Fujisoba-rsses on アサテイ！</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>JP</language>
+    <atom:link href="https://asatei.h000.net/fujisoba/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>たぬき温泉玉子そば</title>
+      <link>https://asatei.h000.net/fujisoba/tanuki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/fujisoba/tanuki/</guid>
+      <description>&lt;p&gt;温・冷、うどんも選択可&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>きつね温泉玉子そば</title>
+      <link>https://asatei.h000.net/fujisoba/kitsune/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://asatei.h000.net/fujisoba/kitsune/</guid>
+      <description>&lt;p&gt;温・冷、うどんも選択可&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

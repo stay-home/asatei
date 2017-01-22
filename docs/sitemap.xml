@@ -39,6 +39,46 @@
     </image:image>
   </url>
   
+  <url>
+    <loc>https://asatei.h000.net/matsunoya/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/matsunoya/logo.jpg</image:loc>
+      <image:caption>松のや・松乃家</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/katsuya/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/katsuya/logo.jpg</image:loc>
+      <image:caption>かつや</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/yudetaro/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/yudetaro/logo.jpg</image:loc>
+      <image:caption>ゆで太郎</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/fujisoba/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/fujisoba/logo.jpg</image:loc>
+      <image:caption>富士そば</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/iwamotoq/</loc>
+    <image:image>
+      <image:loc>https://asatei.h000.net/assets/img/iwamotoq/logo.jpg</image:loc>
+      <image:caption>いわもとQ</image:caption>
+    </image:image>
+  </url>
+  
 
   
   <url>
@@ -58,11 +98,31 @@
   </url>
   
   <url>
+    <loc>https://asatei.h000.net/tags/そば/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/カレー/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/コロッケ/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/トンカツ/</loc>
+  </url>
+  
+  <url>
     <loc>https://asatei.h000.net/tags/ベーコン/</loc>
   </url>
   
   <url>
     <loc>https://asatei.h000.net/tags/丼/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/卵/</loc>
   </url>
   
   <url>
@@ -74,7 +134,7 @@
   </url>
   
   <url>
-    <loc>https://asatei.h000.net/tags/生卵/</loc>
+    <loc>https://asatei.h000.net/tags/玉子/</loc>
   </url>
   
   <url>
@@ -91,6 +151,10 @@
   
   <url>
     <loc>https://asatei.h000.net/tags/豆腐/</loc>
+  </url>
+  
+  <url>
+    <loc>https://asatei.h000.net/tags/豚汁/</loc>
   </url>
   
 </urlset>

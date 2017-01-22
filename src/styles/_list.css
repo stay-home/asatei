@@ -6,15 +6,6 @@
 .menu {
   margin-bottom: 2em;
 
-  &.col-xs-6 {
-    &:nth-child(odd) {
-      padding-left: 0;
-    }
-    &:nth-child(even) {
-      padding-right: 0;
-    }
-  }
-
   & .menu_shopname {
     font-size: 140%;
     font-weight: bold;
