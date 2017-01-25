@@ -112,6 +112,10 @@ a:hover {
   margin: 32px 0 3em;
   margin: 2rem 0 3em;
 }
+.ad_sidebar {
+  margin: 32px 0;
+  margin: 2rem 0;
+}
 .ad_bottom {
   margin-top: 48px;
   margin-top: 3rem;
@@ -134,7 +138,7 @@ a:hover {
 .menu .menu_title {
   font-size: 130%;
   font-weight: bold;
-  margin: .5em 0;
+  margin: 1em 0 .5em 0;
 }
 .menu .menu_price {
   font-size: 130%;
