@@ -1,7 +1,7 @@
 {{ define "kind" }}tag{{ end }}
 
 
-{{ define "title" }}{{ .Title }} の朝定食メニュー | {{ .Site.Title }} (朝定食データベース){{ end }}
+{{ define "title" }}{{ .Title }} の朝定食メニュー | {{ .Site.Title }} {{ .Site.Params.subtitle }}{{ end }}
 
 
 {{ define "description" }}「{{ .Title }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}

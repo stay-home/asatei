@@ -6,7 +6,8 @@ buildFuture = false
 preserveTaxonomyNames = true
 
 [Params]
-description = "朝定食くらべました。牛丼チェーン店をはじめとする、朝定食メニューの比較・まとめサイトです。"
+subtitle = "(朝定食 比較データベース)"
+description = "朝定食くらべました。牛丼チェーン店をはじめとする、朝定食メニューのまとめサイトです。"
 
 [params.strings]
 date_format = "2006-1-2"

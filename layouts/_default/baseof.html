@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>{{ block "title" . }}{{ .Site.Title }} (朝定食データベース){{ end }}</title>
+  <title>{{ block "title" . }}{{ .Site.Title }} {{ .Site.Params.subtitle }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ block "description" . }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ block "ogimage" . }}{{ .Site.Params.domain }}assets/img/apple-touch-icon.png{{ end }}" />

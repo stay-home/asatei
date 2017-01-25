@@ -1,7 +1,7 @@
 {{ define "kind" }}shop{{ end }}
 
 
-{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}
+{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ $shop.name }} の朝定食 | {{ .Site.Title }} {{ .Site.Params.subtitle }}{{ end }}
 
 
 {{ define "description" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}「{{ $shop.name }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}

@@ -1,7 +1,7 @@
 {{ define "kind" }}{{ if .Data.Singular }}tag{{ else }}shop{{ end }}{{ end }}
 
 
-{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ if .Data.Singular }}{{ .Title }} の朝定食メニュー | {{ .Site.Title }} (朝定食データベース){{ else }}{{ $shop.name }} の朝定食 | {{ .Site.Title }} (朝定食データベース){{ end }}{{ end }}
+{{ define "title" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ if .Data.Singular }}{{ .Title }} の朝定食メニュー{{ else }}{{ $shop.name }} の朝定食{{ end }} | {{ .Site.Title }} {{ .Site.Params.subtitle }}{{ end }}
 
 
 {{ define "description" }}{{ $shop := (index $.Site.Data.shops (index .Data.Pages 0).Section) | default false}}{{ if .Data.Singular }}「{{ .Title }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ else }}「{{ $shop.name }}」の朝定食メニューまとめ。{{ .Site.Params.description }}{{ end }}{{ end }}
