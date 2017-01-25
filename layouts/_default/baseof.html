@@ -30,15 +30,12 @@
   <div class="row">
     <main class="col-md-9">
       {{ block "main" . }}{{ end }}
+
+      {{ partial "ad/bottom.html" . }}
     </main>
 
     {{ partial "sidebar.html" . }}
   </div>
-</div>
-
-
-<div class="container">
-  {{ partial "ad/bottom.html" . }}
 </div>
 
 
